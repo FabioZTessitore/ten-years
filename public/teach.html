@@ -1,0 +1,203 @@
+    <title>Imparare a programmare in dieci anni</title>
+    
+
+
+    <section>
+      Titolo originale: Teach Yourself Programming in Ten Years
+      Autore: Peter Norvig
+      Versione originale: <a href="http://norvig.com/21-days.html" title="Teach Yourself Programming in Ten Years (Versione originale in inglese)">http://norvig.com/21-days.html</a>
+      Traduzione a cura di: Fabio Z Tessitore
+      aggiornata al 30/11/2018
+      Per segnalazioni e correzioni: fabioztessitore (at) gmail (punto) com
+    </section>
+
+
+    <main>
+      <h1>Imparare a Programmare in Dieci Anni</h1>
+
+      <h2>Perché vanno tutti di fretta?</h2>
+
+<p>Passeggiando in una libreria qualsiasi, accanto a <em>Impara Java in 7 Giorni</em>, sono presenti infinite variazioni sul tema che pretendono di insegnare C, SQL, Ruby, Algoritmi e così via in pochi giorni o addirittura ore. Una ricerca avanzata su Amazon <a href="http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-keywords=&field-author=&field-title=teach+yourself+hours&field-isbn=&field-publisher=&node=&field-p_n_condition-type=&field-feature_browse-bin=&field-subject=&field-language=&field-dateop=After&field-datemod=&field-dateyear=2000&sort=relevanceexprank&Adv-Srch-Books-Submit.x=16&Adv-Srch-Books-Submit.y=5">title: teach, yourself, hours, since: 2000</a> trova circa 512 libri. Tra i primi dieci, nove sono libri di programmazione (l'altro riguarda la contabilità). Risultati simili si ottengono rimpiazzando "teach yourself" con "learn" e "hours" con "days".
+
+<p>La conclusione logica è che le persone vanno molto di fretta quando devono imparare a programmare, oppure che la programmazione è qualcosa di favolosamente facile da imparare rispetto a qualsiasi altra cosa.
+Felleisen <em>et al.</em> accennano a questa tendenza nel loro libro <a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" title="How to Design Programs, Felleisen et al. (in inglese)">How to Design Programs</a>, quando dicono "Programmare male è facile. Gli idioti possono impararlo in 21 giorni, anche se sono stupidi". The Abtruse Goose comic also had <a href="http://abstrusegoose.com/249">their take</a>.</p>
+
+<p>Proviamo ad analizzare cosa un titolo del tipo <em><a href="http://www.amazon.com/Sams-Teach-Yourself-Hours-5th/dp/0672333317/ref=sr_1_6?s=books&ie=UTF8&qid=1412708443&sr=1-6&keywords=learn+c%2B%2B+days">Impara il C++ in 24 Ore</a></em> potrebbe significare:</p>
+
+<ul>
+
+<li><strong>Impara:</strong><p>In 24 ore non avrai il tempo di scrivere alcun programma significativo e con esso imparare da successi e sconfitte. Non avrai il tempo di lavorare con programmatori esperti e capire che significa vivere nell'ambiente C++. In breve, non avrai tempo per imparare molto. Quindi il libro può ... ad una familiarità superficiale, non di conoscenza profonda. Come disse Alexander Pope, un po' di sapere è pericoloso.</p></li>
+
+<li><strong>C++:</strong><p>In 24 ore potresti imparare la sintassi del C++ (se già conosci un altro linguaggio), ma non potrai imparare molto su come usare quel linguaggio. In breve, se fossi, diciamo, un programmatore Basic, potresti imparare a scrivere programmi in stile Basic usando la sintassi del C++, ma non potresti imparare per cosa il C++ va bene (e non). Qual è il punto?  <a href="http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html" title="Epigrammi di Alan J. Perlis (in inglese)">Alan Perlis</a> una volta disse: "Un linguaggio che non influenza il modo di pensare la programmazione, non vale la pena di essere imparato". Una possibilità è che hai bisogno di imparare una piccola parte del C++ (o più probabilmente, qualcosa del tipo JavaScript o Processing) perch hai bisogno di interfacciarti con qualcosa di esistente per portare a termine un compito specifico. Ma allora non stai imparando a programmare: stai imparando a completare quel compito.</p></li>
+
+<li><strong>in 24 ore:</strong><p>Sfortunatamente non &egrave; sufficiente, come dimostra la prossima sezione.</p></li>
+
+</ul>
+
+<h2>Impara a Programmare in Dieci Anni</h2>
+
+<p>Alcuni ricercatori (<a href="http://www.amazon.com/exec/obidos/ASIN/034531509X/">Bloom (1985)</a>, <a href="#bh">Bryan &amp; Harter (1899)</a>, <a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">Hayes (1989)</a>, <a href="#sc">Simmon &amp; Chase (1973)</a>) hanno dimostrato che sono necessari circa dieci anni per sviluppare esperienza in una gran varietà di campi, inclusi il gioco degli scacchi, la composizione musicale, la telegrafia, il disegno, il suonare il pianoforte, il nuoto, il tennis, le ricerche in neuropsicologia e in topologia. La chiave è la pratica intenzionale: non semplicemente farlo ancora e ancora, ma impegnarsi in un compito appena oltre le proprie abilità, provare, analizzare il proprio rendimento durante e dopo l'esecuzione e correggere gli errori. Quindi ripetere. E ripetere ancora. Non sembrano esserci scorciatoie: anche per Mozart, che era un prodigio musicale a 4 anni, ci vollero altri 13 anni prima di iniziare a produrre musica di levello mondiale. Cambiando genere, i Beatles sembrano comparire sulle scene con una hit e un'apparizione nello show di Ed Sullivan nel 1964. Ma hanno suonato in piccoli club a Liverpool e Amburgo fin dal 1957, e nonostante siano piaciuti immediatamente, il loro primo grande successo, <em>Sgt. Peppers</em>, fu inciso nel 1967. <a href="http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922">Malcolm Gladwell</a> ha reso popolare l'idea, anche se riportava 10.000 ore e non 10 anni.
+Henri Cartier-Bresson (1908-2004) usa un'altra metrica: "Le prime 10.000 fotografie saranno le peggiori." (Non previde che con le camere digitali alcune persone possono raggiungere l'obiettivo in una settimana.)
+
+La vera competenza può richiedere una vita intera per essere costruita: Samuel Johnson (1709-1784) disse "L'eccellenza in un campo qualsiasi può essere raggiunta solo attraverso il lavoro di una vita: non si può acquistare ad un prezzo inferiore." E Chaucer (1340-1400) lamentava "la vita è così breve, l'arte così lunga da imparare.". Ippocrate (c. 400BC) è noto per la massima "ars longa, vita brevis", parte di una citazione più lunga "Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile", che tradotto suona come "la vita è breve, l'acquisizione della destrezza è lunga, l'occasione fugace, l'esperienza ingannevole, il giudizio difficile".
+Ovviamente non esiste un numero che sia la risposta: non sembra ragionevole pensare che tutte le abilità (programmare, giocare a scacchi, a dama, o suonare musica) richiedano esattamente la stessa quantità di tempo per essere padroneggiate, oppure che tutte le persone necessiteranno dello stesso tempo. Come disse il Prof. <a href="http://www.amazon.com/K.-Anders-Ericsson/e/B000APB8AQ/ref=dp_byline_cont_book_1">K. Anders Ericsson</a> "In quasi tutti i campi è individuabile il tempo necessario dagli individui più talentuosi per raggiungere le migliori prestazioni. Le 10.000 ore danno un'idea degli anni durante i quali i migliori talenti si sono esercitati tra le 10 e le 20 ore a settimana per raggiungere i più alti livelli.
+
+<h2>Quindi vuoi essere un programmatore</h2>
+
+<p>Questa è la mia ricetta per avere successo nella programmazione:</p>
+
+<ul>
+
+  <li><p><strong>Interessati</strong> alla programmazione, e fanne perché lo trovi divertente. Assicurati che sia sufficientemente divertente così da portarla avanti per 10 anni / 10.000 ore.</p></li>
+
+  <li><p><strong>Programma</strong>. Il modo migliore per imparare è <a href="http://www.engines4ed.org/hyperbook/nodes/NODE-120-pg.html" title="Il saggio Imparare facendo (in inglese)">imparare facendo</a>. Per essere più precisi, "il massimo livello di prestazioni per gli individui in un dato dominio non è automaticamente funzione dell'esperienza generale, ma può essere incrementato anche dagli individui di grande esperienza come risultato di un deliberato sforzo per migliorare." <a href="http://www2.umassd.edu/swpi/DesignInCS/expertise.html" title="Saggio sullo sviluppo dell'esperienza (in inglese)">(p. 366)</a> e "il migliore apprendimento richiede un compito ben definito con un livello di difficoltà appropriato per l'individuo in questione, una retroazione informativa, e l'opportunità per la ripetizione e la correzione degli errori." (p. 20-21) Il libro <em><a href="http://www.amazon.com/exec/obidos/ASIN/0521357349"> Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life</a></em> è un riferimento interessante sull'argomento.</p></li>
+
+  <li><p><strong>Parla con</strong> altri programmatori; leggi altri programmi. È più importante di qualsiasi libro o corso.</p></li>
+  
+  <li><p>Se vuoi, frequenta un'<strong>università</strong>. Ti darà accesso ad alcuni lavori che richiedono titoli e ti darà una conoscenza più profonda del campo, ma se la scuola non è nelle tue corde, puoi (con qualche attenzione) ottenere un'esperienza simile lavorando. In ogni caso imparare solo dai libri non è sufficiente. "Lo studio della computer science non può rendere nessuno un programmatore esperto più che studiare pennelli e colori possa rendere qualcuno un pittore esperto" dice Eric Raymond, autore de <em>Il Nuovo Dizionario Hacker</em>. Uno dei migliori programmatori che ho mai assunto aveva solo il titolo di scuola superiore; ha prodotto una gran quantità di <a href="http://www.xemacs.org">ottimo</a> <a href="http://www.mozilla.org">software</a>, ha un proprio <a href="http://groups.google.com/groups?q=alt.fan.jwz&amp;meta=site%3Dgroups">news group</a> e ha guadagnato abbastanza in azioni per comprarsi un proprio <a href="http://en.wikipedia.org/wiki/DNA_Lounge">nightclub</a>.</p></li>
+
+<li><p>Lavora su <strong>progetti insieme</strong> ad altri programmatori. Sii il miglior programmatore in alcuni progetti; sii il peggiore in altri. Quando sarai il migliore potrai testare le tue abilità di guidare un progetto ed ispirare gli altri con la tua visione. Quando sarai il peggiore imparerai cosa fanno i maestri e cosa non piace fare loro (perché lo faranno fare a te).</p></li>
+
+<li><p>Lavora su <strong>progetti dopo</strong> altri programmatori. Comprendi un programma scritto da qualcun altro. Capisci cosa voleva capire e aggiusta laddove il programmatore originale non c'è. Pensa a come progettare i tuoi programmi per renderli più semplici per quelli che li manterranno dopo di te.</p></li>
+
+<li><p>Impara almeno una mezza dozzina di <strong>linguaggi di programmazione</strong>. Incluso un linguaggio che supporta l'astrazione in classi (come Java o C++), uno che supporta l'astrazione funzionale (come Lisp o ML o Haskell), uno che supporta l'astrazione sintattica (come Lisp), uno che supporta le specificazioni dichiarative (come Prolog o i template del C++), uno che supporta il parallelismo (come Clojure o Go).</p></li>
+
+<li><p>Ricorda che c'è la parola "<strong>computer</strong>" in "computer science". Devi sapere quanto tempo occorre al tuo computer per eseguire un'istruzione, leggere una parola dalla memoria (con o senza cache miss), leggere parole consecutive dal disco e cercare in una nuova locazione di memoria sul disco. (<a href="#answers">Risposte</a>)</p></li>
+
+<li><p>Impegnati nello sforzo di <strong>standardizzazione</strong> di un linguaggio. Potrebbe essere il comitato per l'ANSI C++, oppure potrebbe essere decidere se nel tuo stile ci saranno 2 o 4 spazi per ogni livello di identazione. In ogni caso, imparerai cosa, in un linguaggio, piace ad altre persone, come profondamente lo sentono e forse perfino perché si sentono così.</p></li>
+
+<li><p>Abbi il buon senso di <strong>tirarti fuori</strong> dallo sforzo di standardizzazione di un linguaggio il prima possibile.</p></li>
+</ul>
+
+<p>Tenendo a mente tutto ciò, è opinabile quanto lontano puoi arrivare imparando solo dai libri. Prima che nascesse il mio primogenito, lessi tutti i libri della serie <em>Come Fare</em>, e ancora mi sentivo come un novizio senza speranza. 30 mesi dopo, quando nacque il secondo, tornai indietro ai libri per una rinfrescata? No. Invece mi rifeci all'esperienza personale che risultò essere molto più utile e rassicurante per me rispetto alle migliaia di pagine scritte da esperti.</p>
+
+<p>Fred Brooks, nel suo saggio <em><a href="http://en.wikipedia.org/wiki/No_Silver_Bullet">No Silver Bullets</a></em> ha identificato un piano in tre parti per trovare grandi progettisti di software:</p>
+
+<ol>
+<li><p>Identificare sistematicamente i migliori progettisti il prima possibile.</p></li>
+<li><p>Assegnare un mentore responsabile per lo sviluppo del prospetto e tenere con cura un archivio della carriera.</p></li>
+<li><p>Fornire opportunità ai progettisti in crescita di interagire e stimolarsi gli uni con gli altri.</p></li>
+</ol>
+
+<p>Tutto ciò assumendo che qualcuno ha già le qualità necessarie per diventare un grande progettista; il lavoro consiste nel motivarlo correttamente. <a href="http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html" title="Epigrammi di Alan J. Perlis (in inglese)">Alan Perlis</a> più succintamente: "A chiunque può essere insegnato a scolpire: a Michelangelo si poteva insegnare come non farlo. Così è per i grandi programmatori". Perlis dice che i migliori hanno un talento che prescinde dall'allenamento. Ma da dove viene questo talento? È innato? O viene sviluppato con la diligenza? Auguste Gusteau (lo chef di <em>Ratatouille</em>) dice: "tutti possono cucinare, ma solo gli impavidi possono essere grandi". Penso sia volontà di dedicare una larga parte della propria vita alla pratica intenzionale. Ma forse <em>impavidi</em> è un termine per sintetizzare questo concetto. Oppure, come dice Anton Ego, il critico di Gusteau: "Non tutti possono diventare grandi artisti, ma un grande artista può venir fuori da ovunque".</p>
+
+<p>Quindi vai avanti e compra quel libro su Java/Ruby/Javascript/PHP; probabilmente ne farai un qualche uso. Ma non cambierai la tua vita, o la tua reale esperienza come programmatore in 24 ore o 21 giorni. Che succede lavorando sodo per 24 mesi? Bene, adesso sei partito ...</p>
+
+<hr>
+
+<h2>Riferimenti</h2>
+
+<p>Bloom, Benjamin (ed.) <em><a href="http://www.amazon.com/exec/obidos/ASIN/034531509X">Developing Talent in Young People</a></em>, Ballantine, 1985.</p>
+
+<p>Brooks, Fred, <em><a href="http://citeseer.nj.nec.com/context/7718/0">No Silver Bullets</a></em>, IEEE Computer, vol. 20, no. 4, 1987, p. 10-19.</p>
+
+<p id="bh">Bryan, W.L. &amp; Harter, N. "Studies on the telegraphic language: The acquisition of a hierarchy of habits. Psychology Review, 1899, 8, 345-375</p>
+
+<p>Hayes, John R., <em><a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">Complete Problem Solver</a></em> Lawrence Erlbaum, 1989.</p>
+
+<p id="sc">Chase, William G. &amp; Simon, Herbert A. <a href="http://books.google.com/books?id=dYPSHAAACAAJ&amp;dq=%22perception+in+chess%22+simon&amp;ei=z4PyR5iIAZnmtQPbyLyuDQ"><span class="quote">Perception in Chess</span></a> Cognitive Psychology, 1973, 4, 55-81.</p>
+
+<p>Lave, Jean, <em><a href="http://www.amazon.com/exec/obidos/ASIN/0521357349">Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life</a></em>, Cambridge University Press, 1988.</p>
+
+<hr>
+
+<h2 id="answers">Risposte</h2>
+
+<p>Tempi approssimativi per varie operazioni su un tipico PC:</p>
+
+<table border="1">
+<tr>
+	<td>esecuzione di una tipica istruzione</td>
+	<td>1/1.000.000.000 sec = 1 nanosec</td>
+</tr>
+<tr>
+	<td>leggere dalla cache L1</td>
+	<td>0.5 nanosec </td>
+</tr>
+<tr>
+    <td>predizione di flusso errata</td>
+    <td>5 nanosec</td>
+</tr>
+<tr>
+	<td>leggere dalla cache L2</td>
+	<td>7 nanosec </td>
+</tr>
+<tr>
+	<td>Mutex lock/unlock</td>
+	<td>25 nanosec </td>
+</tr>
+<tr>
+	<td>leggere dalla memoria principale</td>
+	<td>100 nanosec</td>
+</tr>
+<tr>
+	<td>inviare 2KB su una rete 1Gbps</td>
+	<td>20.000 nanosec</td>
+</tr>
+<tr>
+	<td>leggere 1MB sequenzialmente dalla memoria</td>
+	<td>250.000 nanosec</td>
+</tr>
+<tr>
+	<td>leggere da una nuova posizione sul disco (seek)</td>
+	<td>8.000.000 nanosec</td>
+</tr>
+<tr>
+	<td>leggere 1MB sequenzialmente dal disco</td>
+	<td>20.000.000 nanosec</td>
+</tr>
+<tr>
+	<td>inviare pacchetti dagli USA all'Europa e viceversa</td>
+	<td>150 millisec = 150.000.000 nanosec</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>Appendice: Scelta del Linguaggio</h2>
+
+<p>Svariate persone hanno chiesto quale linguaggio di programmazione dovrebbero imparare per primo. Non c'è una risposta univoca, ma considera questi punti:</p>
+
+<ul>
+<li><p><em>Fai riferimento ai tuoi amici</em>. Quando qualcuno chiede "Quale sistema operativo dovrei usare, Windows, Unix o Mac?", la mia risposta normalmente è: "usa quello che usano i tuoi amici". Il vantaggio che ne avrai imparando dai tuoi amici compenserà ogni differenza intrinseca tra SO, o tra linguaggi di programmazione. Considera anche gli amici futuri: la comunità di programmatori di cui farai parte continuando. Il linguaggio scelto ha una comunità larga e crescente o una piccola e in estinzione? Ci sono libri, siti web e forum online da cui avere risposte? Ti piacciono le persone che partecipano a questi forum?</p></li>
+
+<li><p><em>Resta sul semplice</em>. I linguaggi di programmazione come C++ e Java sono progettati per lo sviluppo professionale da parte di grandi gruppi di programmatori con esperienza che sono interessati all'efficienza in fase di run-time dei loro codici. Come risultato questi linguaggi hanno parti complicate progettate per queste circostanze. Tu sei interessato ad imparare. Non hai bisogno di queste complicazioni. Andrà bene un linguaggio progettato per essere facile da imparare e ricordare da un singolo programmatore.</p></li>
+
+<li><p><em>Gioca.</em> In che modo preferiresti imparare a suonare il pianoforte: nel modo normale, interattivo, in cui senti ogni nota appena premi un tasto, o nel modo "batch", in cui puoi sentire le note solo dopo che hai finito un'intera canzone? Chiaramente il modo interattivo rende più semplice imparare a suonare il pianoforte e lo stesso vale per la programmazione. Insisti su un linguaggio che consente il modo interattivo e usalo.</p></li>
+</ul>
+
+<p>Dati questi criteri, la mia raccomandazione per un primo linguaggio di programmazione è <strong><a href="http://python.org" title="Il sito del progetto Python">Python</a></strong> o <strong><a href="http://www.schemers.org" title="Il punto di riferimento per chi programma con Scheme">Scheme</a></strong>. Un'altra possibilità è JavaScript, non perché sia ben progettato per principianti, ma perché esistono molti tutorial, uno dei quali è <a href="https://www.khanacademy.org/computing/cs/programming">Khan Academy's tutorial</a>.
+Ma le circostanze possono cambiare ed esistono altre buone scelte. Se la tua età è a singola cifra probabilmente preferirai <a href="http://alice.org">Alice</a> o <a href="http://www.squeak.org/">Squeak</a> o <a href="https://blockly-demo.appspot.com/static/apps/index.html">Blockly</a> (anche i più anziani potrebbero preferirli). La cosa importante è scegliere e partire.</p>
+
+<hr>
+
+<h2>Appendice: Libri e Altre Risorse</h2>
+
+<p>Svariate persone hanno chiesto da quali libri e pagine web dovrebbero studiare. Ripeto che "imparare solo dai libri non basta" ma posso consigliare i seguenti:</p>
+
+<ul>
+<li><strong>Scheme:</strong><p><a href="http://www.amazon.com/gp/product/0262011530">Structure and Interpretation of Computer Programs (Abelson &amp; Sussman)</a> &egrave; probabilmente la migiore introduzione alla computer science; e insegna a programmare come un metodo per capire la computer science. Puoi vedere <a href="http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/">i video online delle lezioni</a> su questo libro, come pure il <a href="http://mitpress.mit.edu/sicp/full-text/book/book.html">testo completo online</a>. Il libro è una vera sfida e scoraggerà alcune persone che potrebbero avere successo con un diverso approccio.</p></li>
+
+<li><strong>Scheme:</strong><p><a href="http://www.amazon.com/gp/product/0262062186">How to Design Programs (Felleisen <em>et al.</em>)</a> (in versione <a href="http://www.htdp.org/2003-09-26/" title="How to Design Programs, versione online">online</a>) &egrave; uno dei migliori libri su come progettare programmi in modo elegante e funzionale.</p></li>
+
+<li><strong>Python:</strong><p><a href="http://www.amazon.com/gp/product/1887902996">Python Programming: An Introduction to Computer Science (Zelle)</a> &egrave; una buona introduzione che usa il Python.</p></li>
+
+<li><strong>Python:</strong><p>Alcuni <a href="http://wiki.python.org/moin/BeginnersGuide">tutorial</a> online sono disponibili sul sito <a href="http://python.org" title="Il sito del progetto Python">Python.org</a>.</p></li>
+
+<li><strong>Oz:</strong><p><a href="http://www.amazon.com/gp/product/0262220695">Concepts, Techniques, and Models of Computer Programming (Van Roy &amp; Haridi)</a> è visto da alcuni come il successore moderno di Abelson &amp; Sussman. È un tour attraverso le grandi idee della programmazione, copre un più grande intervallo rispetto a Abelson &amp; Sussman mentre è più semplice da leggere e da seguire. Usa un linguaggio, Oz, non molto conosciuto ma utile come base per imparare altri linguaggi.</p></li>
+</ul>
+
+<hr>
+
+<h2>Note</h2>
+
+<p>T. Capey ha fatto notare che la pagina <a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">Complete Problem Solver</a> su Amazon ora ha i libri "Impara il Bengalese in 21 giorni" e  "Impara la Grammatica e lo Stile" nella sezione "Utenti che hanno acquistato questo libro hanno anche acquistato questi oggetti". Immagino che la maggior parte delle persone che guardano il libro provengano da questa pagina. Grazie a Ross Cohen per il suo aiuto con Ippocrate.</p>
+
+<hr>
+
+<a href="http://norvig.com/index.html"><em>Peter Norvig</em> (Copyright 2001)</a>
+
+</div>
+
+</body>
+</html>
