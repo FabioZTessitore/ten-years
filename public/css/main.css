@@ -97,21 +97,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: sans-serif;
+}
+
+#doc-info {
+  text-align: center;
+}
+
+.not-imp {
+  color: grey;
+  font-weight: normal;
+  font-size: 0.85rem;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+table, td {
+  border-collapse: collapse;
+  border: 1px solid grey;
+  padding: 5px;
+}
 
 
+main {
+  margin: 0 auto;
+  width: 95%;
+}
 
+@media only screen and (min-width: 768px) {
 
+  main {
+    margin: 5rem auto 15rem auto;
+    width: 85%;
+  }
 
+}
 
+@media only screen and (min-width: 1024px) {
 
+  main {
+    margin: 5rem auto 15rem auto;
+    width: 65%;
+  }
 
-
-
-
-
-
-
-
+}
 
 /* ==========================================================================
    Helper classes
